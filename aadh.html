@@ -1,0 +1,126 @@
+!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Robotics IoT Project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: radial-gradient(circle at top, #0f2027, #203a43, #2c5364);
+      color: #ffffff;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 3rem 2rem;
+      text-align: center;
+      background: linear-gradient(90deg, #111, #1f1f1f);
+      box-shadow: 0 2px 20px rgba(0,0,0,0.6);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 3rem;
+      margin: 0;
+      background: linear-gradient(90deg, #00ffc3, #00bfff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: slideUp 1.2s ease-in-out;
+    }
+    .section h2 {
+      font-family: 'Orbitron', sans-serif;
+      color: #00ffc3;
+      border-left: 5px solid #00ffc3;
+      padding-left: 10px;
+    }
+    .card {
+      background: rgba(41, 41, 41, 0.9);
+      padding: 1.5rem;
+      margin: 1rem 0;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.8);
+    }
+    ul li {
+      margin-bottom: 10px;
+      list-style: none;
+      padding-left: 25px;
+      position: relative;
+    }
+    ul li::before {
+      content: '✔';
+      color: #00ffc3;
+      position: absolute;
+      left: 0;
+    }
+    .footer {
+      background: #111;
+      text-align: center;
+      padding: 1.2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+    @keyframes slideUp {
+      from {transform: translateY(20px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Modern IoT Robotics Safety System</h1>
+    <p>Smart Detection | Real-Time Alerts | Future-Ready</p>
+  </header>  <div class="section">
+    <h2>Project Overview</h2>
+    <div class="card">
+      <p>This IoT-based smart robot leverages advanced sensors to detect LPG gas, smoke, and fire, delivering instant alerts and automated safety measures to prevent hazards in residential and industrial settings.</p>
+    </div><h2>Key Features</h2>
+<div class="card">
+  <ul>
+    <li>🔥 Flame Sensor for fire detection</li>
+    <li>🛢️ Gas Sensor for LPG leak detection</li>
+    <li>🌫️ Smoke Sensor for smoke alerts</li>
+    <li>📶 IoT module (e.g., ESP8266) for real-time alerts</li>
+    <li>🔔 Buzzer & LED indicators</li>
+    <li>📱 Mobile notifications via Blynk or Telegram</li>
+  </ul>
+</div>
+
+<h2>How It Works</h2>
+<div class="card">
+  <p>The robot continuously scans the surroundings, activating alarms and sending instant notifications via Wi-Fi upon detecting any danger. It can integrate with emergency shutoff systems for enhanced safety.</p>
+</div>
+
+<h2>Applications</h2>
+<div class="card">
+  <ul>
+    <li>Home kitchens and gas stoves</li>
+    <li>Industrial gas storage units</li>
+    <li>Robotic surveillance systems</li>
+    <li>Smart buildings</li>
+  </ul>
+</div>
+
+  </div>  <div class="footer">
+    &copy; 2025 Robotics IoT Project | Designed for Innovation and Safety
+  </div>
+</body>
+</html>
